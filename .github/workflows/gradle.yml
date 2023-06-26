@@ -7,8 +7,8 @@ on:
 env:
   AWS_REGION: ap-northeast-2
   AWS_S3_BUCKET: linkarchive-operate
-  AWS_CODE_DEPLOY_APPLICATION: LinkArchive-CD
-  AWS_CODE_DEPLOY_GROUP: LinkArchive-CD-group
+  AWS_CODE_DEPLOY_APPLICATION: linkarchive-operate-codedeploy
+  AWS_CODE_DEPLOY_GROUP: linkarchive-operate-codedeploy-group
 
 jobs:
 
